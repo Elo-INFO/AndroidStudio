@@ -10,4 +10,23 @@
         <item>Gingerbread</item>
     </string-array>
 
+    <string-array name="andVersionDetails">
+        <item>(version 1.5) is the third version of Android developed by Google, that is no longer supported.</item>
+        <item>(version 1.6) is the fourth version of Android developed by Google, that is no longer supported.</item>
+        <item>Android Eclair is a codename of the Android mobile operating system developed by Google and the fifth operating system for Android, and for the no-longer supported versions 2.0 to 2.1.</item>
+        <item>Android Froyo is the sixth version of Android and is a codename of the Android mobile operating system developed by Google, spanning versions between 2.2 and 2.2.3 Those versions are no longer supported. </item>
+        <item>Android Honeycomb is the codename for the eighth version of Android, designed for devices with larger screen sizes, particularly tablets. It is no longer supported.</item>
+        <item>Android Gingerbread est un systeme d\'exploitation mobile sorti fin decembre 2010 et developpe par Google. Il possede aussi le nom de Android 2.3 (API Level 9).</item>
+    </string-array>
+
+    <string-array name="andVersionURLWiki">
+        <item>https://fr.wikipedia.org/wiki/Android_Cupcake</item>
+        <item>https://fr.wikipedia.org/wiki/Android_Donut</item>
+        <item>https://fr.wikipedia.org/wiki/Android_Éclair</item>
+        <item>https://fr.wikipedia.org/wiki/Android_FroYo</item>
+        <item>https://fr.wikipedia.org/wiki/Android_Honeycomb</item>
+        <item>https://fr.wikipedia.org/wiki/Android_Gingerbread</item>
+    </string-array>
+
+
 </resources>

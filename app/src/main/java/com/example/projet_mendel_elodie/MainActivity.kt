@@ -20,7 +20,9 @@ class MainActivity : AppCompatActivity() {
     private fun seedItems() {
         var nameArray = resources.getStringArray(R.array.andVersionName)
         val imgArray = intArrayOf(R.drawable.img_cupcake, R.drawable.img_donut, R.drawable.img_eclair, R.drawable.img_froyo, R.drawable.img_honeycomb, R.drawable.img_gingerbread)
+        var detailsArray = resources.getStringArray(R.array.andVersionDetails)
+        var urlWikiArray = resources.getStringArray(R.array.andVersionURLWiki)
         for (i in 0..nameArray.size - 1)
-            andVersionArray[i] = AndVersion(nameArray[i], imgArray[i])
+            andVersionArray[i] = AndVersion(nameArray[i], imgArray[i], detailsArray[i], urlWikiArray[i])
     }
 }
