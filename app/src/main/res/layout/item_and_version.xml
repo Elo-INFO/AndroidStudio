@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/common_width"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/andVersionImg"
+        android:layout_width="126dp"
+        android:layout_height="@dimen/common_width" />
+
+    <TextView
+        android:id="@+id/andVersionTxt"
+        android:layout_width="285dp"
+        android:gravity="center"
+        android:layout_height="@dimen/common_width" />
+
+</LinearLayout>

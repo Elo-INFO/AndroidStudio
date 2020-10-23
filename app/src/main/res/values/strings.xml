@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Projet-Mendel-Elodie</string>
+
+    <string-array name="andVersionName">
+        <item>Cupcake</item>
+        <item>Donut</item>
+        <item>Eclair</item>
+        <item>Froyo</item>
+        <item>HoneyComb</item>
+        <item>Gingerbread</item>
+    </string-array>
+
+</resources>
