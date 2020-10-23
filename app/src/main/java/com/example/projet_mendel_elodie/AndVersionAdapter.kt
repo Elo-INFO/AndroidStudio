@@ -23,7 +23,7 @@ class AndVersionAdapter(private val items: Array<AndVersion>) : RecyclerView.Ada
                 andVersionImg.setOnClickListener {
                     itemView.context.alert(this.details) {
                         title = "Details"
-                        positiveButton("Aller sur Wikipedia") { itemView.context.browse("https://www.chillcoding.com/")}
+                        positiveButton("Aller sur Wikipedia") { itemView.context.browse(urlwiki)}
                         negativeButton("OK" ) { }
                     }.show()
                 }
